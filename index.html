@@ -13,7 +13,15 @@
       referrerpolicy="no-referrer"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
       .body.hidden-scrolling {
         overflow-y: hidden;
       }
@@ -886,32 +894,34 @@
 
             <!-- ==== Experience Card ==== -->
             <div
-              class="hidden absolute bg-[#538DE4] px-14 py-10 flex flex-col rounded w-[220px] top-[60px] min-[959px]:block min-[1280px]:top-[-50px]"
+              class="hidden absolute bg-[#538DE4] px-14 py-10 rounded w-[220px] top-[60px] min-[959px]:block min-[1280px]:top-[-50px]"
             >
-              <div>
-                <div class="">
-                  <img
-                    width="64"
-                    height="64"
-                    src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/icon.png"
-                    class="elementor-animation-grow attachment-large size-large wp-image-92"
-                    alt=""
-                  />
+              <div class="flex flex-col">
+                <div>
+                  <div class="">
+                    <img
+                      width="64"
+                      height="64"
+                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/icon.png"
+                      class="elementor-animation-grow attachment-large size-large wp-image-92"
+                      alt=""
+                    />
+                  </div>
                 </div>
-              </div>
 
-              <div class="pt-8 text-[#FFFFFF] text-4xl font-semibold">
-                <span class=""></span>
-                <span class="">36</span>
-                <span class="">+</span>
-              </div>
+                <div class="pt-8 text-[#FFFFFF] text-4xl font-semibold">
+                  <span class=""></span>
+                  <span class="">36</span>
+                  <span class="">+</span>
+                </div>
 
-              <div>
-                <div class="text-[#FFFFFF] text-xl font-medium uppercase">
-                  <p class="">
-                    Years of<br />
-                    experience
-                  </p>
+                <div>
+                  <div class="text-[#FFFFFF] text-xl font-medium uppercase">
+                    <p class="">
+                      Years of<br />
+                      experience
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1161,23 +1171,19 @@
     </section>
 
     <section>
-      <!-- ==== View All Work ==== -->
       <div
-        class="px-5 pt-[40px] pb-[25px] min-[1280px]:pt-0 min-[1280px]:pb-0 bg-[url('https://themesflat.com/osfinskit/wp-content/uploads/2023/10/circle.png')] bg-auot bg-no-repeat"
+        class="bg-[#e6e6ed] px-5 pt-[30px] mb-[30px] min-[1218px]:pr-0 relative bg-[url('https://themesflat.com/osfinskit/wp-content/uploads/2023/10/circle.png')] bg-auot bg-no-repeat"
       >
-        <div class="min-[1218px]:flex min-[1218px]:justify-end">
-          <div
-            class="relative top-0 z-30 min-[1218px]:top-[-50px] min-[1218px]:w-[80%] min-[1218px]:max-w-[1170px] flex flex-col"
-          >
-            <!-- ==== Laptop Card (4 cards)-->
-            <div class="min-[1218px]:px-0 min-[1218px]:flex flex-col">
-              <div class="hidden min-[1024px]:block">
-                <div class="flex gap-8">
-                  <div class="group relative overflow-hidden rounded-md">
+        <div class="flex justify-end">
+          <div class="w-full min-[1218px]:max-w-[1170px]">
+            <div class="relative top-0 min-[1218px]:top-[-70px]">
+              <div class="card mx-[50px] overflow-hidden min-[1218px]:mr-0">
+                <div class="swiper-wrapper w-full">
+                  <div class="group swiper-slide overflow-hidden rounded-md">
                     <img
                       src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
                       class="group-hover:scale-110 transition duration-300 w-full"
-                      alt=""
                     />
                     <div
                       class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
@@ -1194,7 +1200,7 @@
                       </h5>
                     </div>
 
-                    <div class="absolute top-0 min-[959px]:hidden">
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
                       <h5
                         class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
                       >
@@ -1204,153 +1210,18 @@
                     </div>
                   </div>
 
-                  <div class="group relative overflow-hidden rounded-md">
-                    <img
-                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-3.jpg"
-                      class="group-hover:scale-110 transition duration-300 w-full"
-                      alt=""
-                    />
-                    <div
-                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
-                    ></div>
-
-                    <div
-                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
-                    >
-                      <h5
-                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
-                      >
-                        <a href="">Portfolio</a>
-                        <div class="text-3xl">Digital</div>
-                      </h5>
-                    </div>
-
-                    <div class="absolute top-0 min-[959px]:hidden">
-                      <h5
-                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
-                      >
-                        <a href="">Portfolio</a>
-                        <div class="">Digital product</div>
-                      </h5>
-                    </div>
-                  </div>
-
-                  <div class="group relative overflow-hidden rounded-md">
-                    <img
-                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image3.jpg"
-                      class="group-hover:scale-110 transition duration-300 w-full"
-                      alt=""
-                    />
-                    <div
-                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
-                    ></div>
-
-                    <div
-                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
-                    >
-                      <h5
-                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
-                      >
-                        <a href="">Portfolio</a>
-                        <div class="text-3xl">Digital</div>
-                      </h5>
-                    </div>
-
-                    <div class="absolute top-0 min-[959px]:hidden">
-                      <h5
-                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
-                      >
-                        <a href="">Portfolio</a>
-                        <div class="">Digital product</div>
-                      </h5>
-                    </div>
-                  </div>
-
-                  <div class="group relative overflow-hidden rounded-md">
-                    <img
-                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image2-2.jpg"
-                      class="group-hover:scale-110 transition duration-300 w-full"
-                      alt=""
-                    />
-                    <div
-                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
-                    ></div>
-
-                    <div
-                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
-                    >
-                      <h5
-                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
-                      >
-                        <a href="">Portfolio</a>
-                        <div class="text-3xl">Digital</div>
-                      </h5>
-                    </div>
-
-                    <div class="absolute top-0 min-[959px]:hidden">
-                      <h5
-                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
-                      >
-                        <a href="">Portfolio</a>
-                        <div class="">Digital product</div>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- ==== Tablet Card (2 cards) ==== -->
-
-            <div class="hidden min-[769px]:block min-[1024px]:hidden">
-              <div class="flex gap-5 justify-between">
-                <div class="inline-block group w-[50%]">
-                  <div class="relative overflow-hidden rounded-md">
-                    <img
-                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image3.jpg"
-                      class="group-hover:scale-110 transition duration-300 w-full"
-                      alt=""
-                    />
-                    <div
-                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
-                    ></div>
-
-                    <div
-                      class="absolute bottom-0 px-5 pb-4 hidden min-[1024px]:block"
-                    >
-                      <h5
-                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
-                      >
-                        <a href="">Portfolio</a>
-                        <div class="text-3xl">Digital</div>
-                      </h5>
-                    </div>
-
-                    <div class="absolute top-0 px-5 pt-4 min-[1024px]:hidden">
-                      <h5
-                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
-                      >
-                        <a href="">Portfolio</a>
-                        <div class="text-3xl">Digital product</div>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="inline-block group w-[50%]">
-                  <div class="relative overflow-hidden rounded-md">
+                  <div class="group swiper-slide overflow-hidden rounded-md">
                     <img
                       src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
                       class="group-hover:scale-110 transition duration-300 w-full"
-                      alt=""
                     />
-
                     <div
                       class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
                     ></div>
 
                     <div
-                      class="absolute bottom-0 px-5 pb-4 hidden min-[1024px]:block"
+                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
                     >
                       <h5
                         class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
@@ -1360,35 +1231,28 @@
                       </h5>
                     </div>
 
-                    <div class="absolute top-0 px-5 pt-4 min-[1024px]:hidden">
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
                       <h5
                         class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
                       >
                         <a href="">Portfolio</a>
-                        <div class="text-3xl">Digital product</div>
+                        <div class="">Digital product</div>
                       </h5>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
 
-            <!-- ==== Mobile Card (1 card) ==== -->
-            <div class="min-[769px]:hidden">
-              <div class="flex">
-                <div class="inline-block w-full h-[60vh]">
-                  <div class="relative overflow-hidden group rounded-md">
+                  <div class="group swiper-slide overflow-hidden rounded-md">
                     <img
-                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-3.jpg"
+                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
                       class="group-hover:scale-110 transition duration-300 w-full"
-                      alt=""
                     />
                     <div
                       class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
                     ></div>
 
                     <div
-                      class="absolute bottom-0 px-5 pb-4 hidden min-[1024px]:block"
+                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
                     >
                       <h5
                         class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
@@ -1398,30 +1262,246 @@
                       </h5>
                     </div>
 
-                    <div class="absolute top-0 px-5 pt-4 min-[1024px]:hidden">
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
                       <h5
                         class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
                       >
                         <a href="">Portfolio</a>
-                        <div class="text-3xl">Digital product</div>
+                        <div class="">Digital product</div>
+                      </h5>
+                    </div>
+                  </div>
+
+                  <div class="group swiper-slide overflow-hidden rounded-md">
+                    <img
+                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
+                      class="group-hover:scale-110 transition duration-300 w-full"
+                    />
+                    <div
+                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
+                    ></div>
+
+                    <div
+                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
+                    >
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="text-3xl">Digital</div>
+                      </h5>
+                    </div>
+
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="">Digital product</div>
+                      </h5>
+                    </div>
+                  </div>
+
+                  <div class="group swiper-slide overflow-hidden rounded-md">
+                    <img
+                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
+                      class="group-hover:scale-110 transition duration-300 w-full"
+                    />
+                    <div
+                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
+                    ></div>
+
+                    <div
+                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
+                    >
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="text-3xl">Digital</div>
+                      </h5>
+                    </div>
+
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="">Digital product</div>
+                      </h5>
+                    </div>
+                  </div>
+                  <div class="group swiper-slide overflow-hidden rounded-md">
+                    <img
+                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
+                      class="group-hover:scale-110 transition duration-300 w-full"
+                    />
+                    <div
+                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
+                    ></div>
+
+                    <div
+                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
+                    >
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="text-3xl">Digital</div>
+                      </h5>
+                    </div>
+
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="">Digital product</div>
+                      </h5>
+                    </div>
+                  </div>
+
+                  <div class="group swiper-slide overflow-hidden rounded-md">
+                    <img
+                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
+                      class="group-hover:scale-110 transition duration-300 w-full"
+                    />
+                    <div
+                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
+                    ></div>
+
+                    <div
+                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
+                    >
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="text-3xl">Digital</div>
+                      </h5>
+                    </div>
+
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="">Digital product</div>
+                      </h5>
+                    </div>
+                  </div>
+
+                  <div class="group swiper-slide overflow-hidden rounded-md">
+                    <img
+                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
+                      class="group-hover:scale-110 transition duration-300 w-full"
+                    />
+                    <div
+                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
+                    ></div>
+
+                    <div
+                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
+                    >
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="text-3xl">Digital</div>
+                      </h5>
+                    </div>
+
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="">Digital product</div>
+                      </h5>
+                    </div>
+                  </div>
+
+                  <div class="group swiper-slide overflow-hidden rounded-md">
+                    <img
+                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
+                      class="group-hover:scale-110 transition duration-300 w-full"
+                    />
+                    <div
+                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
+                    ></div>
+
+                    <div
+                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
+                    >
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="text-3xl">Digital</div>
+                      </h5>
+                    </div>
+
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="">Digital product</div>
+                      </h5>
+                    </div>
+                  </div>
+
+                  <div class="group swiper-slide overflow-hidden rounded-md">
+                    <img
+                      src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/image-9.jpg"
+                      alt="image"
+                      class="group-hover:scale-110 transition duration-300 w-full"
+                    />
+                    <div
+                      class="bg-[#538DE4E6] w-full h-full absolute opacity-0 bottom-[100%] left-0 group-hover:bottom-0 group-hover:opacity-90 group-hover:visible transition duration-200"
+                    ></div>
+
+                    <div
+                      class="absolute bottom-0 px-5 pb-4 hidden min-[959px]:block"
+                    >
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="text-3xl">Digital</div>
+                      </h5>
+                    </div>
+
+                    <div class="absolute top-0 px-5 pt-4 min-[959px]:hidden">
+                      <h5
+                        class="text-[#FFFFFF] font-bold uppercase opacity-0 bottom-[100%] group-hover:opacity-100 group-hover:visible transition duration-300"
+                      >
+                        <a href="">Portfolio</a>
+                        <div class="">Digital product</div>
                       </h5>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <!-- ==== View All Work (Text) ==== -->
-            <div
-              class="text-[#7B8391] hover:text-[#538DE4] uppercase text-base font-semibold pt-[40px] pb-[25px] transition duration-200"
-            >
-              <a href="#">
-                <span>View All Work</span>
-              </a>
-            </div>
+              <div
+                class="ml-[50px] bottom-0 py-[14px] min-[959px]:py-[20px] w-[95%] relative border-b-2 border-[#031026] opacity-50"
+              >
+                <p class="text-[14px] min-[959px]:text-[20px] font-semibold">
+                  VIEW ALL WORK
+                </p>
+              </div>
 
-            <!--  ==== Line ==== -->
-            <div class="border-t border-[#7B8391] mb-10"></div>
+              <!-- <div
+                class="swiper-pagination relative bottom-[50px] left-[80%]"
+              ></div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -2330,50 +2410,60 @@
     </section>
 
     <section>
-      <div class="flex px-5 border-t-2 border-[#D9DFE9]">
-        <div class="w-full px-[18px]">
-          <div class="w-full py-[54px] flex justify-evenly">
-            <div>
-              <div>
-                <a href="#"
-                  ><img
-                    decoding="async"
-                    src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/logoipsum-1.png"
-                    alt="image"
-                /></a>
+      <div class="py-[10px] flex items-center bg-[#FFFFFF]">
+        <div class="max-w-[1280px] w-full mx-auto">
+          <div
+            class="swiper cursor-pointer py-10 before:w-[150px] before:h-[100%] before:absolute before:left-0 before:top-0 before:z-10 before:bg-gradient-to-r before:from-white after:w-[150px] after:h-[100%] after:absolute after:right-0 after:top-0 after:z-10 after:bg-gradient-to-l after:from-white"
+          >
+            <div class="swiper-wrapper ease-linear">
+              <div class="swiper-slide flex px-[40px] w-auto">
+                <img
+                  class="w-[150px] h-[70px]"
+                  src="/assets/Alibaba-Logo.png"
+                  alt="image"
+                />
               </div>
-            </div>
-
-            <div>
-              <div>
-                <a href="#"
-                  ><img
-                    decoding="async"
-                    src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/logoipsum-1.png"
-                    alt="image"
-                /></a>
+              <div class="swiper-slide flex px-[40px] w-auto">
+                <img
+                  class="w-[150px] h-[70px]"
+                  src="/assets/Coca-Cola-logo.png"
+                  alt="image"
+                />
               </div>
-            </div>
-
-            <div class="hidden sm:block">
-              <div>
-                <a href="#"
-                  ><img
-                    decoding="async"
-                    src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/logoipsum-1.png"
-                    alt="image"
-                /></a>
+              <div class="swiper-slide flex px-[40px] w-auto">
+                <img
+                  class="w-[150px] h-[70px]"
+                  src="/assets/Google_Logo.png"
+                  alt="image"
+                />
               </div>
-            </div>
-
-            <div class="hidden sm:block">
-              <div>
-                <a href="#"
-                  ><img
-                    decoding="async"
-                    src="https://themesflat.com/osfinskit/wp-content/uploads/2023/10/logoipsum-1.png"
-                    alt="image"
-                /></a>
+              <div class="swiper-slide flex px-[40px] w-auto">
+                <img
+                  class="w-[150px] h-[70px]"
+                  src="/assets/MPT_Logo.png"
+                  alt="image"
+                />
+              </div>
+              <div class="swiper-slide flex px-[40px] w-auto">
+                <img
+                  class="w-[150px] h-[70px]"
+                  src="/assets/Ooredoo.png"
+                  alt="image"
+                />
+              </div>
+              <div class="swiper-slide flex px-[40px] w-auto">
+                <img
+                  class="w-[150px] h-[70px]"
+                  src="/assets/Telenor-logo.png"
+                  alt="image"
+                />
+              </div>
+              <div class="swiper-slide flex px-[40px] w-auto">
+                <img
+                  class="w-[150px] h-[70px]"
+                  src="/assets/spacex.png"
+                  alt="image"
+                />
               </div>
             </div>
           </div>
@@ -2760,18 +2850,95 @@
           </div>
         </div>
 
-        <!-- <div>
-          <div>
-            <a href="#" class="inner-scroll-top">
-              <span class="icon-scroll-top"
-                ><i aria-hidden="true" class="fas fa-chevron-up"></i
-              ></span>
-            </a>
-          </div>
-        </div> -->
+        <div
+          id="progress"
+          class="flex justify-center items-center z-50 fixed bottom-[20px] right-[10px] w-[50px] h-[50px] place-items-center rounded-full shadow-orange-200 cursor-pointer transition-all duration-700 ease-in-out"
+        >
+          <span
+            class="h-[85%] w-[85%] bg-[#ffffff] rounded-full flex justify-center place-items-center text-[35px] text-[#538de4]"
+          >
+            &#x1F815;
+          </span>
+        </div>
       </div>
     </footer>
 
     <script src="./script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const calcScrollValue = () => {
+        const scrollProgress = document.getElementById("progress");
+
+        const pos = document.documentElement.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const calcHeight = scrollHeight - clientHeight;
+        const scrollValue = Math.round((pos * 100) / calcHeight);
+
+        if (pos > 100) {
+          scrollProgress.style.bottom = "80px";
+        } else {
+          scrollProgress.style.bottom = "-80px";
+        }
+
+        scrollProgress.addEventListener("click", () => {
+          document.documentElement.scrollTop = 0;
+        });
+
+        scrollProgress.style.background = `conic-gradient(#538de4 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+      };
+
+      window.onscroll = calcScrollValue;
+      window.onload = calcScrollValue;
+
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: "auto",
+        loop: true,
+        // centeredSlides: true,
+        // allowTouchMove: false,
+        speed: 3000,
+        autoplay: {
+          disableOnInteraction: false,
+          delay: 1,
+          pauseOnMouseEnter: true,
+        },
+      });
+
+      let swiperCards = new Swiper(".card", {
+        loop: true,
+        spaceBetween: 32,
+        grabCursor: true,
+        autoplay: {
+          delay: 1000,
+        },
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          600: {
+            slidesPerView: 2,
+          },
+          968: {
+            slidesPerView: 3,
+          },
+          1218: {
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
